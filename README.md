@@ -83,6 +83,6 @@ COMPLETE SETUP
 PERFORM INITIAL COMMIT
 Commit your setup with message "Prepare for Queen of the Universe (San Nicolas, Iriga City)."
 
-In cropping the photos, maglagay ka ng temporary circle to prepare the photo in circular form sa system
+In cropping the photos, place a temporary circle to to measure the candidate's face or team
 
-Also, clear mo muna yung results page sa initial commit (optional)
+Clear results, ratings, clear necessary elimination, arrangements, titles
