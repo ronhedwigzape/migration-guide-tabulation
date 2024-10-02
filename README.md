@@ -86,3 +86,51 @@ Commit your setup with message "Prepare for Queen of the Universe (San Nicolas, 
 In cropping the photos, place a temporary circle to to measure the candidate's face or team
 
 Clear results, ratings, clear necessary elimination, arrangements, titles
+
+
+## 🛠️ Production - GitHub Pages
+
+1. Delete the current `gh-pages` branch:
+
+- Open your terminal or command prompt.
+- Type the following command and press Enter:
+
+   ```shell
+   git push origin --delete gh-pages
+   ```
+
+2. Run the build command in the terminal:
+
+- Make sure you are in the **root** directory of your project.
+- Open your terminal or command prompt.
+- Type the following command and press Enter:
+
+   ```shell   
+   npm run build
+   ```
+
+3. Commit the changes for deployment:
+
+- Open your terminal or command prompt.
+- Type the following command to force push **`.vitepress/dist`** and press Enter to commit:
+
+   ```shell
+   git add .vitepress/dist -f
+   git commit -m "chore(deployment): deploy to production"
+   ```
+
+4. Push the built project to the gh-pages branch:
+
+- Open your terminal or command prompt.
+- Type the following command and press Enter:
+
+   ```shell
+   git subtree push --prefix .vitepress/dist origin gh-pages
+   ```
+
+5. After deployment:
+
+- Open GitHub Desktop or your preferred Git client.
+- Undo the commit you made in the previous step to revert the changes locally.
+
+By following these steps, you can deploy your website to production using GitHub Pages.
