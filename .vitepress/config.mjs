@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/migration-guide-tabulation/',
-  title: "From Forked Repository: Migration to New Tabulation System",
+  title: "From Forked Repository: Migrating to New Tabulation System",
   description: "A migration guide to refactoring and creating a forked tabulation system",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
