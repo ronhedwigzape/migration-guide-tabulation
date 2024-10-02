@@ -90,7 +90,7 @@ Clear results, ratings, clear necessary elimination, arrangements, titles
 
 ## 🛠️ Production - GitHub Pages
 
-1. Delete the current `gh-pages` branch:
+1. Delete the current `gh-pages` branch if there is:
 
 - Open your terminal or command prompt.
 - Type the following command and press Enter:
