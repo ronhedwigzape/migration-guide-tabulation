@@ -2,7 +2,9 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "delete:pages": "git push origin --delete gh-pages",
+    "deploy": "git add .vitepress/dist -f && git commit -m \"chore(deployment): deploy to production\" && git subtree push --prefix .vitepress/dist origin gh-pages"
   },
   "devDependencies": {
     "vitepress": "^1.3.4"

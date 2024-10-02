@@ -96,7 +96,7 @@ Clear results, ratings, clear necessary elimination, arrangements, titles
 - Type the following command and press Enter:
 
    ```shell
-   git push origin --delete gh-pages
+   npm run delete:pages
    ```
 
 2. Run the build command in the terminal:
@@ -106,29 +106,19 @@ Clear results, ratings, clear necessary elimination, arrangements, titles
 - Type the following command and press Enter:
 
    ```shell   
-   npm run build
+   npm run docs:build
    ```
 
-3. Commit the changes for deployment:
+3. Commit the changes for deployment and Push the built project to the gh-pages branch:
 
 - Open your terminal or command prompt.
 - Type the following command to force push **`.vitepress/dist`** and press Enter to commit:
 
    ```shell
-   git add .vitepress/dist -f
-   git commit -m "chore(deployment): deploy to production"
+   npm run deploy
    ```
 
-4. Push the built project to the gh-pages branch:
-
-- Open your terminal or command prompt.
-- Type the following command and press Enter:
-
-   ```shell
-   git subtree push --prefix .vitepress/dist origin gh-pages
-   ```
-
-5. After deployment:
+4. After deployment:
 
 - Open GitHub Desktop or your preferred Git client.
 - Undo the commit you made in the previous step to revert the changes locally.
