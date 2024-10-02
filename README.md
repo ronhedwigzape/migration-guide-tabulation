@@ -1,8 +1,21 @@
-REPOSITORY
-Name
--> qotu.sn-iriga
-Description
--> Tabulation System for Queen of the Universe (San Nicolas, Iriga City)
+## Migration 
+
+Sample:
+Old repository: missiriga
+Your sample forked repository: mgsr-nabua 
+
+
+### Repository Name
+
+- The repository name depends on the pageant title and its location. Our naming convention uses when competition is a pageant and for ladies that has "Miss" on the pageant's title, it will be "miss" and location will be always combined so the result will be "missiriga" something like that. Another example is when competition is a pageant but in other format like "Miss Gay San Roque", we use the initials so it will be like this > "mgsr" then the location will be separated with a "-".  It will be separated with "-" because they start with initials. The result will be msgr-nabua.
+
+```
+missiriga > mgsr-nabua
+```
+
+### Repository Description
+
+- The repository description also follows a convention. The format is like this **Tabulation System for `Pageant Title` (`The Pageant's Location e.g. Iriga, Camarines Sur`)**. 
 
 
 
