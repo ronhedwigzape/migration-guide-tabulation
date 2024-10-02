@@ -122,5 +122,6 @@ Clear results, ratings, clear necessary elimination, arrangements, titles
 
 - Open GitHub Desktop or your preferred Git client.
 - Undo the commit you made in the previous step to revert the changes locally.
+- Delete the `.vitepress/dist` directory
 
 By following these steps, you can deploy your website to production using GitHub Pages.
